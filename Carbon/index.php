@@ -1,7 +1,8 @@
 <?php
 include "tag.php";
 
-// router('blue',runcode("<bluehello></bluehello>"));
+
+// router(array route , array code);
 router(['redhello','bluehello'],['<redhello></redhello>','<bluehello></bluehello>']);
 
 
